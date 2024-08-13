@@ -28,7 +28,7 @@ nav {
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    height: 100px;
 }
 
 .logo {
@@ -67,7 +67,9 @@ nav ul li a:visited {
     background: var(--background);
     background-image: url(assets/header.png);
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 530px;
 }
 
 .wide {
@@ -118,11 +120,10 @@ h1 span {
 }
 
 h3 {
-    border-left: 2px solid var(--secondary);
     padding-left: 10px;
     color: var(--secondary);
     font-family: var(--font);
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -139,7 +140,7 @@ p+p{
 
 
 .bold{
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .download {
