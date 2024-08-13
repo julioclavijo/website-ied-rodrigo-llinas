@@ -52,6 +52,7 @@ nav ul li {
 nav ul li a {
     color: var(--primary);
     text-decoration: none;
+    font-weight: 600;
 }
 
 nav ul li a:hover {
@@ -72,8 +73,6 @@ nav ul li a:visited {
 .wide {
     max-width: 100%;
     width: 100%;
-    background: var(--white);
-    box-shadow: 10px 10px 33px 0px rgba(0, 0, 0, 0.07);
 }
 
 .container {
@@ -194,4 +193,6 @@ footer ul li {
 }
 .creditos{
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
 }
