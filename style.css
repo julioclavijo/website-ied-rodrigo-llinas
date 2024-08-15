@@ -72,6 +72,16 @@ nav ul li a:visited {
     height: 530px;
 }
 
+.proyectos {
+    background: var(--background);
+    background-image: url(assets/proyectos.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 313px;
+}
+
+
 .wide {
     max-width: 100%;
     width: 100%;
