@@ -72,6 +72,14 @@ nav ul li a:visited {
     height: 530px;
 }
 
+.slide {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 530px;
+}
+
+
 .proyectos {
     background: var(--background);
     background-image: url(assets/proyectos.png);
@@ -80,7 +88,6 @@ nav ul li a:visited {
     background-repeat: no-repeat;
     height: 313px;
 }
-
 
 .wide {
     max-width: 100%;
@@ -138,28 +145,21 @@ h3 {
     font-weight: 400;
     line-height: normal;
 }
-p{
+
+p {
     margin-bottom: 0;
 }
-p+p{
+
+p+p {
     margin-bottom: 10px;
 }
-.text-left{
+
+.text-left {
     text-align: right;
 }
 
-
-.bold{
+.bold {
     font-weight: 700;
-}
-
-.download {
-    padding-top: 90px;
-}
-
-.caracteristicas {
-    padding: 60px 0;
-    color: var(--white);
 }
 
 /* footer */
@@ -167,7 +167,7 @@ footer {
     padding-top: 60px;
 }
 
-footer  p{
+footer p {
     color: #FFF;
     font-family: var(--font);
     font-size: 12px;
@@ -176,10 +176,10 @@ footer  p{
     line-height: normal;
 }
 
-footer  li {
+footer li {
     color: #FFF;
     font-family: var(--font);
-    font-size: 12px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -199,11 +199,59 @@ footer ul li {
     position: absolute;
     top: -90px;
 }
-.space-2{
-    margin-bottom: 20px;
-}
-.creditos{
+
+.creditos {
     padding: 10px 0;
     display: flex;
     justify-content: center;
+    align-content: ce;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    transform: translatey(-50px);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.card-green {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+.news {
+    margin-bottom: 100px;
+}
+
+.news-icon {
+    transform: translatey(-100px);
+}
+
+.p-black {
+    color: var(--primary);
+}
+
+.p-green {
+    color: var(--secondary);
+}
+
+.p-white {
+    color: var(--white);
+
+}
+
+
+.display-text {
+    font-size: 36px;
 }
