@@ -8,6 +8,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Rodolfo Llinas I.E.D.</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -25,10 +26,10 @@
         </header>
         <div id="inicio">
             <section>
-                <div class="container animate__animated animate__fadeInLeft">
+                <div class="container" data-aos="fade-up">
                     <div class="columns">
                         <div class="column col-6">
-                            <div class="d-img mb-80">
+                            <div class="d-img ">
                                 <img src="assets/logo.png" alt="">
                                 <div>
                                     <h1 class="p-black">
@@ -44,6 +45,53 @@
 
                 </div>
 
+            </section>
+        </div>
+        <div class="container container-1200 mb-80">
+            <section class="columns d-flex">
+                <div class="column col-12"  data-aos="fade-up">
+                    <div data-aos="fade-up"
+                    data-aos-duration="1200" class="d-flex">
+                        <img src="assets/cornisa.png" alt="">
+                    </div>
+                    <div class="d-img-left">
+                        <h1 class="title-article">Blog</h1>
+                        <img src="assets/notepad.png" alt="">
+                    </div>
+                </div>
+            </section>
+    
+        </div>
+        <div class="container container-1200 mb-80" data-aos="fade-up" data-aos-duration="1600">
+            <section class="columns d-flex">
+                <div class="column col-9 col-mx-auto">
+                    <div class="columns">
+                        <div class="column col-12">
+                            <a href="article.html">
+                                <img class="img-responsive" src="assets/blog1.png" alt="">
+                                <h3>Presentación sobre el uso responsable de las TIC para niños y jóvenes.</h3>
+                            </a>
+                        </div>
+                        <div class="column col-6">
+                            <a href="article.html">
+                                <img class="img-responsive" src="assets/blog2.png" alt="">
+                                <h3>Consulte las últimas circulares y comunicados de 2024.</h3>
+                            </a>
+                        </div>
+                        <div class="column col-6">
+                            <a href="article.html">
+                                <img class="img-responsive" src="assets/blog3.png" alt="">
+                                <h3>Consulte las últimas circulares y comunicados de 2024.</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <aside class="column col-3 col-mx-auto">
+                    <a href="article.html">
+                        <img class="img-responsive" src="assets/blog4.png" alt="">
+                        <h3>Consulte las últimas circulares y comunicados de 2024.</h3>\
+                    </a>
+                </aside>
             </section>
         </div>
 
@@ -84,9 +132,7 @@
                 </div>
             </div>
         </footer>
-        <script>
-            AOS.init();
-          </script>
+        <script src="main.js"></script>
     </div>
 </body>
 
