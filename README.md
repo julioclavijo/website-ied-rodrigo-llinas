@@ -58,3 +58,6 @@ Puedes personalizar los contenidos y estilos de la página siguiendo estas instr
 ## Licencia
 
 Este proyecto es de uso exclusivo del colegio Rodolfo Llinás I.E.D. y está protegido por derechos de autor. Cualquier uso no autorizado está prohibido.
+
+## Visualización
+![](assets/home.jpg)
