@@ -78,7 +78,11 @@ nav ul li a:visited {
     align-items: center;
     height: 530px;
 }
-
+@media screen and (max-width: 768px) {
+    .slide {
+        height: 200px;
+    }
+}
 
 .proyectos {
     background: var(--background);
