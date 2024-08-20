@@ -95,8 +95,13 @@ nav ul li a:visited {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1440px;
 }
+
+.container-1200 {
+    max-width: 1200px;
+}
+
 
 .caracteristicas {
     background: var(--secondary);
@@ -251,11 +256,47 @@ footer ul li {
 
 }
 
-
 .display-text {
     font-size: 36px;
 }
 
 .mb-80{
     margin-bottom: 80px;
+}
+
+a{
+    color: var(--primary);
+    text-decoration: none;
+}
+a h1, a h2, a h3{
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover, a:hover h1, a:hover h2, a:hover h3{
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+a:visited{
+    color: var(--secondary);
+}
+
+.title-article{
+    color: var(--primary);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    text-align: right;
+}
+
+.d-img-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.d-img-left img{
+    width: 79px;
+    height: 79px;
 }

@@ -8,6 +8,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Rodolfo Llinas I.E.D.</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -24,12 +26,12 @@
             </nav>
         </header>
         <div class="header" id="inicio">
-            <section>
-                <div class="container animate__animated animate__fadeInLeft">
+            <section>"
+                <div class="container" data-aos="fade-up">
                     <div class="columns slide">
                         <div class="column col-6">
                             <div class="d-img mb-80">
-                                <img src="assets/logo.png" alt="">
+                                <img src="assets/logo.png" alt="Rodolfo Llinas I.E.D.">
                                 <div>
                                     <h1 class="p-black">
                                         Rodolfo Llinas I.E.D.
@@ -54,38 +56,41 @@
             </section>
         </div>
         <section>
-            <div class="container animate__animated animate__fadeInLeft">
+            <div class="container" data-aos="fade-up">
                 <div class="columns d-flex">
                     <div class="column col-5">
                         <h1><span class="p-black">Últimas</span> Noticias</h1>
                     </div>
                     <div class="column col-2 news-icon ">
-                        <img src="assets/ultimas-noticias.png" alt="">
+                        <img src="assets/ultimas-noticias.png" alt="Noticias">
                     </div>
                 </div>
             </div>
             <div class="container news">
                 <div class="columns">
                     <div class="column col-3">
-                        <img src="assets/circulares.png" alt="">
-                        <h3>
-                            Consulte las últimas circulares y comunicados de 2024.
-                        </h3>
-
+                        <a href="article.html">
+                            <img src="assets/circulares.png" alt="Consulte las últimas circulares y comunicados de 2024.">
+                            <h3>
+                                Consulte las últimas circulares y comunicados de 2024.
+                            </h3>
+                        </a>
                     </div>
                     <div class="column col-7">
-                        <img src="assets/tics.png" alt="">
+                    <a href="article.html">
+                        <img src="assets/tics.png" alt="Uso responsable de las TIC ">
                         <h2>
                             Presentación sobre el <span class="bold">uso responsable de las TIC </span>para niños y jóvenes.
                         </h2>
+                    </a>
                     </div>
                 </div>
             </div>
 
         </section>
         <section>
-            <div class="proyectos d-flex">
-                <div class="container animate__animated animate__fadeInLeft">
+            <div class="proyectos d-flex" data-aos="fade-up">
+                <div class="container">
                     <h1>Proyectos y Actividades:</h1>
                 </div>
             </div>
@@ -150,10 +155,8 @@
                 </div>
             </div>
         </footer>
-        <script>
-            AOS.init();
-          </script>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
